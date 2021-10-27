@@ -1,0 +1,101 @@
+ Plot()
+ {
+  Phase()
+  {
+   Sequence(Austbø_12A)
+   {
+    Boundary("Start 1");
+    Phase("1")
+    {
+     R_Date("T-8443", 4860, 100);
+     R_Date("T-8438", 4760, 60);
+    };
+    Boundary("End 1");
+   };
+   Sequence(Slettabø_lag3)
+   {
+    Boundary("Start 2");
+    Phase("2")
+    {
+     R_Date("T-1803", 4820, 180);
+     R_Date("T-560", 4780, 130);
+     R_Date("T-738", 4730, 100);
+     R_Date("T-561", 4650, 100);
+     R_Date("T-1779", 4640, 130);
+    };
+    Boundary("End 2");
+   };
+   Sequence(Austbø_12B)
+   {
+    Boundary("Start 3");
+    Phase("3")
+    {
+     R_Date("T-8439", 4540, 90);
+     R_Date("T-8444", 4500, 80);
+     R_Date("T-8366", 4300, 110);
+    };
+    Boundary("End 3");
+   };
+   Sequence(Holeheia)
+   {
+    Boundary("Start 4");
+    Phase("4")
+    {
+     R_Date("T-391", 4590, 110);
+     R_Date("T-588", 4490, 120);
+     R_Date("T-587", 4470, 120);
+     R_Date("T-1782", 4400, 130);
+     R_Date("T-392", 4400, 100);
+    };
+    Boundary("End 4");
+   };
+   Sequence(Slettabø_lag3_2)
+   {
+    Boundary("Start 5");
+    Phase("5")
+    {
+     R_Date("T-1780", 4470, 120);
+    };
+    Boundary("End 5");
+   };
+   Sequence(Logavik)
+   {
+    Boundary("Start 6");
+    Phase("6")
+    {
+     R_Date("T-2687", 4250, 90);
+     R_Date("T-2688", 4060, 50);
+    };
+    Boundary("End 6");
+   };
+   Sequence(Helganes)
+   {
+    Boundary("Start 7");
+    Phase("7")
+    {
+     R_Date("Tra-3219", 4180, 30);
+     R_Date("Tra-3222", 4175, 30);
+     R_Date("Beta-291199", 4140, 40);
+     R_Date("Beta-291198", 4100, 40);
+     R_Date("Tra-3221", 4100, 30);
+     R_Date("Tra-3220", 4095, 30);
+     R_Date("Tra-3224", 4045, 30);
+     R_Date("Tra-3218", 4015, 30);
+     R_Date("Beta-291197", 3960, 40);
+     R_Date("Beta-291196", 3900, 40);
+    };
+    Boundary("End 7");
+   };
+   Sequence(Slettabø_lag2)
+   {
+    Boundary("Start 8");
+    Phase("8")
+    {
+     R_Date("T-627", 3970, 100);
+     R_Date("T-628", 3860, 100);
+     R_Date("T-739", 3790, 70);
+    };
+    Boundary("End 8");
+   };
+  };
+ };
